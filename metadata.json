@@ -1,0 +1,8 @@
+{
+  "name": "My Life Calendar",
+  "description": "A personal day-by-day calendar based on your birth date to track days lived and daily notes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
