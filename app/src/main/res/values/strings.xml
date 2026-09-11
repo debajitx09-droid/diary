@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Life Calendar</string>
+    <string name="tagline">"Your life is made of days. Make each one count."</string>
+    <string name="enter_dob">Enter your date of birth</string>
+    <string name="start_calendar">Start My Calendar</string>
+    <string name="today">Today</string>
+    <string name="prev_day">Previous Day</string>
+    <string name="next_day">Next Day</string>
+    <string name="sky_simulation">Sky Simulation</string>
+    <string name="calendar_view">Calendar View</string>
+    <string name="theme_toggle">Toggle Theme</string>
+    <string name="tab_remark">Remark</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_note">Note</string>
+    <string name="days_lived">Days Lived</string>
+    <string name="age">Age</string>
+    <string name="total_days">Total Days Lived</string>
+    <string name="weeks_lived">Weeks Lived</string>
+    <string name="months_lived">Months Lived</string>
+    <string name="next_birthday">Next Birthday</string>
+    <string name="year_day">Year Day</string>
+    <string name="year_progress">Year Progress</string>
+    <string name="month_progress">Month Progress</string>
+    <string name="important_events">Important Events</string>
+    <string name="schedule_event">Schedule Event</string>
+    <string name="add_event">Add Event</string>
+    <string name="life_progress">Life Progress</string>
+    <string name="all_notes">All Notes</string>
+    <string name="new_entry">New Entry</string>
+    <string name="save_note">Save Note</string>
+    <string name="remark_question_default">Was the day yours?</string>
+    <string name="remark_yes">LET\'S GOOOOO.... 🔥</string>
+    <string name="remark_yes_desc">The day was yours! You showed up, owned your hours, and conquered today.</string>
+    <string name="remark_no">Oooo... it\'s so sad 🥲</string>
+    <string name="remark_no_desc">Not quite your day, but remember: progress isn\'t linear. Reset tonight and attack tomorrow with fresh energy.</string>
+</resources>

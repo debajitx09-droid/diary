@@ -96,13 +96,24 @@ export default function App() {
     });
   };
 
-  if (!appState.dob) {
+  if (!appState?.dob) {
     return <SetupScreen onComplete={handleSetupComplete} />;
   }
 
+  const safeAppState: AppState = {
+    dob: appState.dob,
+    lifeExpectancy: appState.lifeExpectancy || 80,
+    theme: appState.theme || 'system',
+    notes: appState.notes || {},
+    events: appState.events || {},
+    dayRatings: appState.dayRatings || {},
+    remarks: appState.remarks || {},
+    remarkQuestion: appState.remarkQuestion || 'Was the day yours?'
+  };
+
   return (
     <DailyDashboard 
-      appState={appState}
+      appState={safeAppState}
       setAppState={setAppState}
       updateDob={updateDob}
       updateNote={updateNote}

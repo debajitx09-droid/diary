@@ -75,10 +75,24 @@ export function SetupScreen({ onComplete }: SetupScreenProps) {
 
           <button
             type="submit"
-            className="w-full flex items-center justify-center gap-2 bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 py-4 px-6 rounded-xl font-medium hover:bg-stone-800 dark:hover:bg-stone-200 transition-colors shadow-md"
+            className="w-full flex items-center justify-center gap-2 bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 py-4 px-6 rounded-xl font-medium hover:bg-stone-800 dark:hover:bg-stone-200 transition-colors shadow-md cursor-pointer"
           >
             Start My Calendar
             <ArrowRight className="w-5 h-5" />
+          </button>
+
+          <div className="relative flex py-1 items-center">
+            <div className="flex-grow border-t border-stone-200 dark:border-stone-800"></div>
+            <span className="flex-shrink mx-4 text-xs uppercase tracking-wider text-stone-400">or</span>
+            <div className="flex-grow border-t border-stone-200 dark:border-stone-800"></div>
+          </div>
+
+          <button
+            type="button"
+            onClick={() => onComplete('2000-01-01')}
+            className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl border border-stone-300 dark:border-stone-700 bg-stone-50/50 dark:bg-stone-800/50 text-stone-700 dark:text-stone-300 text-sm font-medium hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors cursor-pointer"
+          >
+            Explore with Demo Profile (Born Jan 1, 2000)
           </button>
         </form>
       </motion.div>
